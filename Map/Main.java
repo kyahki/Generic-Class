@@ -4,11 +4,13 @@ public class Main {
     public static void main(String[] args) {
         MyMap<String, Integer> myMap = new MyMap<>();
 
+       
+
+        try{
         myMap.put("Pardo", 10);
         myMap.put("Mingla", 20);
         myMap.put("Talisay", 30);
-
-        try{
+            
         System.out.println("Value of Pardo: " + myMap.get("Pardo"));
         System.out.println("Value of Talisay: " + myMap.get("Talisay"));
         System.out.println("Value of N.Bacalso: " + myMap.get("N.Bacalso"));
